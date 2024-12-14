@@ -17,13 +17,13 @@ body {
 }
 
 .container {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     background-image: radial-gradient(circle at center top, rgba(255, 255, 255, 0.104) 5%, hsl(208, 22%, 15%) 95%);
     background-repeat: no-repeat;
     border-radius: 20px;
     padding: 30px;
-    display:flex;
+    display: flex;
     flex-direction: row;
     overflow: hidden;
     justify-content: center;
@@ -31,23 +31,23 @@ body {
     gap: 40px;
 }
 
-.submit{
+.submit {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    width: 300px;
+    width: 350px;
     flex-shrink: 0;
     /* background-color: hsl(216, 12%, 8%); */
 }
 
-.result{
+.result {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     height: 100%;
-    width: 300px;
+    width: 350px;
     flex-shrink: 0;
     margin-right: 340px;
     /* background: hsl(216, 12%, 8%); */
@@ -55,15 +55,15 @@ body {
     margin-right: -340px;
 }
 
-.scoreimg{
+.scoreimg {
     width: 150px;
 }
 
-.result h1{
+.result h1 {
     text-align: center;
 }
 
-.result .score{
+.result .score {
     background-color: hsl(213, 19%, 18%);
     border-radius: 20px;
     text-align: center;
@@ -71,20 +71,21 @@ body {
     width: 200px;
 }
 
-.result .score span{
+.result .score span {
     font-size: 14px;
     color: hsl(25, 97%, 53%);
     /* background-color: blue; */
-    padding:0px;
+    padding: 0px;
     margin: 0px;
 }
 
-.result .para{
+.result .para {
     text-align: center;
     font-size: 14px;
-    width: 300px;
+    width: 350px;
     margin-top: 10px;
 }
+
 .stardiv {
     background-color: hsl(213, 19%, 20%);
     border-radius: 50%;
@@ -148,7 +149,7 @@ span {
     margin-top: 10%;
 }
 
-.number.active span{
+.number.active span {
     color: hsl(216, 12%, 8%);
 }
 
