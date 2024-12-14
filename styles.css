@@ -9,7 +9,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background: hsl(216, 12%, 8%);
+    background-color: hsl(216, 12%, 8%);
     display: flex;
     align-items: center;
     height: 100vh;
@@ -19,15 +19,72 @@ body {
 .container {
     width: 300px;
     height: 300px;
-    background-image: radial-gradient(circle at center top, rgba(255, 255, 255, 0.133) 5%, hsl(210, 20%, 10%) 95%);
+    background-image: radial-gradient(circle at center top, rgba(255, 255, 255, 0.074) 5%, hsl(210, 20%, 10%) 95%);
     background-repeat: no-repeat;
     border-radius: 20px;
     padding: 30px;
+    display:flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.submit{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100%;
+    width: 300px;
+    flex-shrink: 0;
+    /* background-color: hsl(216, 12%, 8%); */
 }
 
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 300px;
+    flex-shrink: 0;
+    margin-right: 340px;
+    /* background: hsl(216, 12%, 8%); */
+    transition-duration: 0.3s;
+    margin-right: -340px;
+}
+
+.scoreimg{
+    width: 150px;
+}
+
+.result h1{
+    text-align: center;
+}
+
+.result .score{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px 10px;
+    width: 200px;
+}
+
+.result .score span{
+    font-size: 14px;
+    color: hsl(25, 97%, 53%);
+    /* background-color: blue; */
+    padding:0px;
+    margin: 0px;
+}
+
+.result .para{
+    text-align: center;
+    font-size: 14px;
+    width: 300px;
+    margin-top: 10px;
+}
 .stardiv {
     background-color: hsl(213, 19%, 20%);
     border-radius: 50%;
@@ -75,7 +132,7 @@ ul {
 
 .number:hover {
     cursor: pointer;
-    background: hsl(25, 97%, 53%);
+    background-color: hsl(25, 97%, 53%);
 }
 
 .number:hover span {

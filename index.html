@@ -10,42 +10,60 @@
 
 <body>
     <div class="container">
-        <div class="stardiv">
-            <img src="icon-star.svg" alt="">
+
+        <div class="submit">
+            <div class="stardiv">
+                <img src="icon-star.svg" alt="">
+            </div>
+
+            <h1>How did we do?</h1>
+            <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve
+                our
+                offering!</p>
+
+            <ul>
+                <li>
+                    <div class="number" id="1" onclick=firstclick(this)>
+                        <span>1</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="number" id="2" onclick=firstclick(this)>
+                        <span>2</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="number" id="3" onclick=firstclick(this)>
+                        <span>3</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="number" id="4" onclick=firstclick(this)>
+                        <span>4</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="number" id="5" onclick=firstclick(this)>
+                        <span>5</span>
+                    </div>
+                </li>
+            </ul>
+
+            <button class="btnclass" onclick=btnsubmit()>SUBMIT</button>
         </div>
-        <h1>How did we do?</h1>
-        <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our
-            offering!</p>
 
-        <ul>
-            <li>
-                <div class="number" id ="1" onclick=firstclick(this)>
-                    <span>1</span>
-                </div>
-            </li>
-            <li>
-                <div class="number" id ="2" onclick=firstclick(this)>
-                    <span>2</span>
-                </div>
-            </li>
-            <li>
-                <div class="number" id ="3" onclick=firstclick(this)>
-                    <span>3</span>
-                </div>
-            </li>
-            <li>
-                <div class="number" id ="4" onclick=firstclick(this)>
-                    <span>4</span>
-                </div>
-            </li>
-            <li>
-                <div class="number" id ="5" onclick=firstclick(this)>
-                    <span>5</span>
-                </div>
-            </li>
-        </ul>
+        <div class="result">
+            <img class="scoreimg" src="illustration-thank-you.svg" alt="">
+            <div class="score">
+                <span class="scoretext"></span>
+            </div>
+            <div>
+                <h1>Thank you!</h1>
+                <p class="para">We appreciate you taking time to give a rating. If you ever need more support, don't
+                    hesitate to get in touch!</p>
+            </div>
+        </div>
 
-        <button class="btnclass">SUBMIT</button>
     </div>
     <script src="index.js"></script>
 </body>
