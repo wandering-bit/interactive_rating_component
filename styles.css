@@ -49,10 +49,9 @@ body {
     height: 100%;
     width: 350px;
     flex-shrink: 0;
-    margin-right: 340px;
     /* background: hsl(216, 12%, 8%); */
     transition-duration: 0.3s;
-    margin-right: -340px;
+    margin-right: -390px;
 }
 
 .scoreimg {
@@ -81,7 +80,7 @@ body {
 
 .result .para {
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     width: 350px;
     margin-top: 10px;
 }
@@ -102,7 +101,7 @@ h1 {
 
 p {
     color: hsl(217, 12%, 63%);
-    font-size: 13px;
+    font-size: 17px;
 }
 
 ul {
@@ -110,13 +109,13 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 30px;
 }
 
 .number {
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     background-color: hsl(213, 19%, 18%);
     padding: 10px;
     display: flex;

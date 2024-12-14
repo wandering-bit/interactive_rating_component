@@ -20,7 +20,7 @@ const btnsubmit = () => {
     console.log("selection",selection)
     const element = document.querySelector('.result')
     const spanElement = document.querySelector('.scoretext')
-    element.style.marginRight = '340px'
+    element.style.marginRight = '390px'
     console.log(element)
     spanElement.textContent = `You selected ${selection} out of 5` 
 }
