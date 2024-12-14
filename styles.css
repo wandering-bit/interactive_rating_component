@@ -19,7 +19,7 @@ body {
 .container {
     width: 300px;
     height: 300px;
-    background-image: radial-gradient(circle at center top, rgba(255, 255, 255, 0.074) 5%, hsl(210, 20%, 10%) 95%);
+    background-image: radial-gradient(circle at center top, rgba(255, 255, 255, 0.104) 5%, hsl(208, 22%, 15%) 95%);
     background-repeat: no-repeat;
     border-radius: 20px;
     padding: 30px;
@@ -116,9 +116,11 @@ ul {
     border-radius: 50%;
     width: 20px;
     height: 20px;
-    text-align: center;
     background-color: hsl(213, 19%, 18%);
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .number.active {
@@ -143,6 +145,7 @@ ul {
 span {
     color: hsl(217, 12%, 63%);
     font-weight: 700;
+    margin-top: 10%;
 }
 
 .number.active span{
